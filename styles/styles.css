@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&family=Roboto:wght@400;700&display=swap');
+
+body {
+  background: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+h1,h2,h3,
+h4,h5 {
+  font-family: 'Oranienbaum', serif;
+}
+li {
+  font-size: 12px;
+  list-style-type: none;
+}
+.container {
+  position: relative;
+}
+.bg__main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70vh;
+  background: url('../img/bg-main.png')center/ cover no-repeat;
+}
+nav {
+  position: absolute;
+  z-index: 1;
+}
+.social-container {
+  height: 25px;
+  overflow: hidden;
+}
+.img-social:hover {
+  transform: translateY(-25px);
+  transition: .2s;
+}
+.num__phone {
+  font-size: 10px;
+}
+.bg_header {
+  width: 100%;
+  height: 500px;
+ 
+}
+
+.stylish__help {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 210px;
+}
+.color__gold {
+  color: rgb(138, 133, 89);
+  text-decoration: underline;
+}
+.nova__line {
+  position: absolute;
+  box-shadow: 1px 1px 10px #000;
+  top: 25px;
+  left: -35px;
+  transform: rotate(-45deg);
+}
+
+.interval {
+  line-height: 30px;
+}
+table.table {
+  /* border-collapse: revert; */
+
+  border:1px solid rgb(238, 175, 2);
+}
+
+td, th, tr {
+  border: 2px solid rgb(238, 175, 2);
+}
+
+.table__fz {
+  font-size: 10px;
+}
+
+.thead__yellow {
+  background: rgb(226, 173, 1);
+}
+
+.tbody__yellow-light {
+  background: rgb(255, 238, 2);
+}
+.table__currency {
+  
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+}
+
+.table__check {
+  position: relative;
+  left: 35px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+
+.table__check div {
+  position: absolute;
+  left: 0px;
+  top: -15px;
+  width: 20px;
+  height: 30px;
+  border: 3px solid #000;
+  transform: rotate(45deg);
+}
+
+.table__dash {
+  position: relative;
+  left: 35px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.table__dash div {
+  position: absolute;
+  left: -4px;
+  top: 5px;
+  width: 30px;
+  height: 30px;
+  border: 3px solid #000;
+}
+
+.card__size {
+  width: 250px;
+  height: 400px;
+  line-height: 1.2;
+}
+
+.card__hover:hover {
+  outline: 2px solid rgb(173, 172, 172);
+  box-shadow: 0 0 30px #000;
+}
+
+.price {
+  font-size: 18px;
+  padding-bottom: 12px;
+  position: relative;
+  margin: 0 auto;
+  width: 65px;
+}
+.price::before {
+  border-bottom: 1px solid red;
+  position: absolute;
+  content: "";
+  top:8px;
+  left: 5px;
+  width: 80%;
+  transform: rotate(-10deg);
+}
+
+.new__price {
+  font-size: 18px;
+}
+
+.desc__telegram_size {
+  white-space: pre-line;
+  font-size: 22px;
+}
+
+.bg__footer {
+  background: #000;
+  color:#fff;
+  border: none;
+  outline: none;
+}
+.arrow__Up {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+}
+.arrow__Up div {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #fff;
+  transform: rotate(45deg);
+}
